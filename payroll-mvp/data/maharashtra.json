@@ -1,0 +1,32 @@
+{
+    "state_name": "Maharashtra",
+    "professional_tax": {
+      "monthly_slabs": [
+        {"min": 0, "max": 10000, "tax": 0},
+        {"min": 10001, "max": 15000, "tax": 175},
+        {"min": 15001, "max": 20000, "tax": 200},
+        {"min": 20001, "max": null, "tax": 300}
+      ],
+      "annual_ceiling": 2500
+    },
+    "provident_fund": {
+      "employee_contribution_rate": 12.0,
+      "employer_contribution_rate": 12.0,
+      "employer_pension_rate": 8.33,
+      "employer_epf_rate": 3.67,
+      "salary_ceiling": 15000,
+      "admin_charges_rate": 0.5,
+      "edli_rate": 0.5
+    },
+    "esi": {
+      "employee_contribution_rate": 0.75,
+      "employer_contribution_rate": 3.25,
+      "income_threshold": 21000,
+      "minimum_wage_threshold": 137
+    },
+    "labour_welfare_fund": {
+      "employee_contribution": 6,
+      "employer_contribution": 12,
+      "payment_frequency": "semi-annual"
+    }
+  }
